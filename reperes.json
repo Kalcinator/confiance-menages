@@ -4,6 +4,7 @@
     "nature": "creux, minimum de la série avec octobre 2026",
     "publie": 78,
     "insee": {"titre": "communiqué n° 147", "url": "https://www.insee.fr/fr/statistiques/1563281", "paru": "27/06/2013", "paru_fr": "27 juin 2013", "citation": "atteignant ainsi un nouveau point bas"},
+    "solde": {"libelle": "chômage, perspectives d’évolution", "valeur": 83, "moyenne": 32, "periode": "1987-2012"},
     "concomitant": {"texte": "inflation annuelle (IPC) de juin 2013 : +0,9 %", "titre": "IPC, n° 161", "url": "https://www.insee.fr/fr/statistiques/1563066", "paru": "11/07/2013", "paru_fr": "11 juillet 2013", "citation": "Sur un an, il croît de 0,9 % en juin"}
   },
   {
@@ -11,6 +12,7 @@
     "nature": "pic local",
     "publie": 108,
     "insee": {"titre": "communiqué n° 170", "url": "https://www.insee.fr/fr/statistiques/2883442", "paru": "28/06/2017", "paru_fr": "28 juin 2017", "citation": "atteint 108, son plus haut niveau depuis juin 2007"},
+    "solde": {"libelle": "chômage, perspectives d’évolution", "valeur": 5, "moyenne": 35, "periode": "1987-2016"},
     "concomitant": {"texte": "inflation annuelle (IPC) de juin 2017 : +0,7 %", "titre": "IPC, n° 184", "url": "https://www.insee.fr/fr/statistiques/2900793", "paru": "13/07/2017", "paru_fr": "13 juillet 2017", "citation": "augmentent de 0,7 % sur un an"}
   },
   {
@@ -18,6 +20,7 @@
     "nature": "creux local",
     "publie": 87,
     "insee": {"titre": "communiqué n° 2", "url": "https://www.insee.fr/fr/statistiques/3691595", "paru": "09/01/2019", "paru_fr": "9 janvier 2019", "citation": "atteint 87, son plus bas niveau depuis novembre 2014"},
+    "solde": {"libelle": "chômage, perspectives d’évolution", "valeur": 31, "moyenne": 33, "periode": "1987-2018"},
     "concomitant": {"texte": "inflation annuelle (IPC) de décembre 2018 : +1,6 %", "titre": "IPC, n° 5", "url": "https://www.insee.fr/fr/statistiques/3696164", "paru": "15/01/2019", "paru_fr": "15 janvier 2019", "citation": "augmentent de 1,6 % sur un an"}
   },
   {
@@ -25,6 +28,7 @@
     "nature": "pic local",
     "publie": 106,
     "insee": {"titre": "communiqué n° 305", "url": "https://www.insee.fr/fr/statistiques/4254274", "paru": "27/11/2019", "paru_fr": "27 novembre 2019", "citation": "À 106, l’indicateur qui la synthétise gagne deux points"},
+    "solde": {"libelle": "chômage, perspectives d’évolution", "valeur": 0, "moyenne": 33, "periode": "1987-2018"},
     "concomitant": {"texte": "inflation annuelle (IPC) de novembre 2019 : +1,0 %", "titre": "IPC, n° 320", "url": "https://www.insee.fr/fr/statistiques/4264540", "paru": "12/12/2019", "paru_fr": "12 décembre 2019", "citation": "de 1,0 % sur un an"}
   },
   {
@@ -32,6 +36,7 @@
     "nature": "plus forte baisse depuis 1972, selon l’Insee",
     "publie": 95,
     "insee": {"titre": "communiqué n° 106", "url": "https://www.insee.fr/fr/statistiques/4483357", "paru": "28/04/2020", "paru_fr": "28 avril 2020", "citation": "soit sa plus forte baisse depuis la création de l’enquête en 1972"},
+    "solde": {"libelle": "chômage, perspectives d’évolution", "valeur": 58, "moyenne": 33, "periode": "1987-2019"},
     "concomitant": {"texte": "inflation annuelle (IPC) d’avril 2020 : +0,3 % ; plus de quatre dixièmes des prix imputés, avertissement de l’Insee", "titre": "IPC, n° 121", "url": "https://www.insee.fr/fr/statistiques/4492639", "paru": "15/05/2020", "paru_fr": "15 mai 2020", "citation": "augmentent de 0,3 % sur un an"}
   },
   {
@@ -39,6 +44,7 @@
     "nature": "creux local",
     "publie": 80,
     "insee": {"titre": "communiqué n° 196", "url": "https://www.insee.fr/fr/statistiques/6478226", "paru": "27/07/2022", "paru_fr": "27 juillet 2022", "citation": "pour le septième mois consécutif"},
+    "solde": {"libelle": "chômage, perspectives d’évolution", "valeur": 12, "moyenne": 34, "periode": "1987-2021"},
     "concomitant": {"texte": "inflation annuelle (IPC) de juillet 2022 : +6,1 %", "titre": "IPC, n° 211", "url": "https://www.insee.fr/fr/statistiques/6483474", "paru": "12/08/2022", "paru_fr": "12 août 2022", "citation": "de 6,1 % sur un an"}
   },
   {
@@ -46,6 +52,7 @@
     "nature": "pic local",
     "publie": 95,
     "insee": {"titre": "communiqué n° 243", "url": "https://www.insee.fr/fr/statistiques/8258231", "paru": "25/09/2024", "paru_fr": "25 septembre 2024", "citation": "pour le troisième mois consécutif"},
+    "solde": {"libelle": "chômage, perspectives d’évolution", "valeur": 26, "moyenne": 33, "periode": "1987-2023"},
     "concomitant": {"texte": "inflation annuelle (IPC) de septembre 2024 : +1,1 %", "titre": "IPC, n° 255", "url": "https://www.insee.fr/fr/statistiques/8269846", "paru": "15/10/2024", "paru_fr": "15 octobre 2024", "citation": "augmentent de 1,1 % sur un an"}
   },
   {
@@ -53,6 +60,7 @@
     "nature": "creux, minimum de la série avec juin 2013",
     "publie": 80,
     "insee": {"titre": "communiqué n° 260", "url": "https://www.insee.fr/fr/statistiques/9098942", "paru": "27/10/2026", "paru_fr": "27 octobre 2026", "citation": "atteint son niveau le plus bas depuis juin 2013"},
+    "solde": {"libelle": "chômage, perspectives d’évolution", "valeur": 61, "moyenne": 33, "periode": "1987-2025"},
     "concomitant": {"texte": "inflation annuelle (IPC) de septembre 2026, dernière publiée : +3,1 %", "titre": "IPC, n° 247", "url": "https://www.insee.fr/fr/statistiques/9080209", "paru": "15/10/2026", "paru_fr": "15 octobre 2026", "citation": "augmentent de 3,1 % sur un an"}
   }
 ]

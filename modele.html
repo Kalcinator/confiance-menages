@@ -106,6 +106,7 @@ document.getElementById("rep").innerHTML = REP.map(r => {
   const c = r.concomitant, i = r.insee;
   return `<li><b>${cap(lab(r.mois))}</b> (${r.nature}) : ${v} dans la série actuelle, ${r.publie} publié le ${i.paru_fr}.<br>
     Insee : « ${i.citation} » (<a href="${i.url}">${i.titre}</a>, lu le ${LU}).<br>
+    Solde « ${r.solde.libelle} » : ${r.solde.valeur} ; moyenne de cette publication (${r.solde.periode}) : ${r.solde.moyenne} (même communiqué).<br>
     Fait concomitant : ${c.texte} (<a href="${c.url}">${c.titre}</a>, publié le ${c.paru_fr}, lu le ${LU}).</li>`;
 }).join("");
 document.querySelector("#tab tbody").innerHTML = D.slice(-24).reverse().map(d =>
