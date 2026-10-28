@@ -37,7 +37,9 @@ svg text{font-family:inherit;fill:var(--muted);font-size:12px}
 .tip i{font-style:normal;color:var(--muted)}
 h2{font-size:1.05rem;margin:22px 0 6px}
 ol.rep{margin:0;padding-left:1.4em;color:var(--ink2);font-size:.92rem}
-ol.rep li{margin:2px 0}
+ol.rep li{margin:0 0 12px}
+ol.rep b{color:var(--ink)}
+ol.rep .src{color:var(--muted);font-size:.85rem}
 .note{color:var(--ink2);font-size:.9rem}
 .note p{margin:6px 0}
 a{color:var(--ink)}
@@ -61,19 +63,20 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
       <div class="kpi neg"><b>80</b><span>octobre 2026 (−5 points en un mois)</span></div>
       <div class="kpi"><b>80</b><span>juin 2013, même niveau</span></div>
     </div>
-    <div id="chart" role="img" aria-label="Courbe mensuelle de l'indicateur de confiance des ménages de 1972 à 2026. Octobre 2026 : 80, au niveau de juin 2013, le plus bas depuis."></div>
+    <div id="chart" role="img" aria-label="Courbe mensuelle de l'indicateur de confiance des ménages de 1972 à 2026. Octobre 2026 : 80, au niveau de juin 2013, le plus bas depuis juin 2013."></div>
     <div class="legend"><span><i style="background:var(--pos)"></i>au-dessus de la moyenne (100)</span><span><i style="background:var(--neg)"></i>au-dessous de la moyenne</span><span><i style="background:var(--band);border:1px solid var(--grid)"></i>avant 1987 : hors période de calcul de la moyenne</span></div>
   </div>
 
   <h2>Repères (chronologie, pas des causes démontrées)</h2>
+  <p class="note">Mois retenus : les creux et pics de la série actuelle, calculés sur 49 mois centrés (24 mois avant, 24 mois après), avec un écart d'au moins 10 points avec le point opposé de la fenêtre ; à égalité, le premier mois ; deux extrêmes de même sens à moins de 24 mois ne forment qu'un repère. S'y ajoute un mois que l'Insee qualifie de record. Un mois n'est montré que si un communiqué mensuel de l'Insee le documente ; les extrêmes antérieurs à juin 2013 ne figurent pas, faute de communiqué mensuel trouvé en ligne. <b>Fait concomitant</b> : une statistique officielle publiée pour le même mois (pour octobre 2026, celle de septembre 2026, dernière publiée). La concomitance ne démontre aucune cause ; les causes éventuellement citées sont celles de leurs auteurs.</p>
   <ol class="rep" id="rep"></ol>
 
   <h2>À savoir pour bien lire</h2>
   <div class="note">
-    <p><b>Un score, pas un pourcentage.</b> L'indicateur résume par analyse factorielle six soldes d'opinion : niveau de vie passé et futur en France, situation financière personnelle passée et future, craintes sur le chômage, opportunité de faire des achats importants. Il est normalisé à une moyenne de 100 et un écart-type de 10 sur 1987-2025. Un 80 n'est donc pas « 20 % de moral en moins ».</p>
-    <p><b>Moyenne calée sur 1987-2025.</b> Les années 1972-1986 sont tracées par rapport à une moyenne calculée sur une période ultérieure : c'est la convention de l'Insee.</p>
-    <p><b>Enquête.</b> Environ 2 000 ménages interrogés par téléphone ; collecte du 25 septembre au 19 octobre 2026. La composition de l'indicateur (six soldes) a été revue en 2026 et l'historique recalculé : les valeurs anciennes peuvent différer légèrement de versions plus anciennes du même graphique. Les coefficients saisonniers sont recalculés chaque mois, donc les derniers points sont révisables (septembre 2026 a été révisé de 1 point à la baisse).</p>
-    <p><b>Égalité avec 2013.</b> L'Insee écrit « le plus bas depuis juin 2013 » : cette année-là, l'indicateur valait aussi 80. Dans la série actuelle (révisée en 2026), 80 est le niveau le plus bas jamais enregistré : octobre 2026 l'égale, sans le dépasser. Le titre « au plus bas depuis 2013 » est donc exact, et « au plus bas de l'histoire » serait un abus.</p>
+    <p><b>Un score, pas un pourcentage.</b> L'indicateur résume par analyse factorielle six soldes d'opinion : niveau de vie passé et futur en France, situation financière personnelle passée et future, chômage, opportunité de faire des achats importants. Il est normalisé à une moyenne de 100 et un écart-type de 10 sur 1987-2025 (<a href="https://www.insee.fr/fr/statistiques/9098942">Insee, communiqué n° 260</a>). Un 80 n'est donc pas « 20 % de moral en moins ».</p>
+    <p><b>Moyenne calée sur 1987-2025.</b> La moyenne de 100 est celle de janvier 1987 à décembre 2025. Les années 1972-1986 sont situées par rapport à cette moyenne, qui ne les inclut pas dans son calcul.</p>
+    <p><b>Enquête et révisions.</b> Environ 2 000 ménages interrogés par téléphone ; collecte du 25 septembre au 19 octobre 2026. Depuis le <a href="https://www.insee.fr/fr/statistiques/9011725">communiqué n° 159 du 25 juin 2026</a>, l'indicateur repose sur six soldes : deux soldes sur l'épargne ont été retirés. L'Insee indique que l'intégralité de la série depuis 1987 est « légèrement révisée » : juin 2013, publié à 78, vaut 80 dans la série actuelle. Les coefficients saisonniers étant recalculés chaque mois, septembre 2026 a été révisé d'un point à la baisse (communiqué n° 260).</p>
+    <p><b>Égalité avec 2013.</b> L'Insee écrit « le plus bas depuis juin 2013 » : cette année-là, l'indicateur valait aussi 80 dans la série actuelle, où 80 est le niveau le plus bas de toute la série : octobre 2026 l'égale, sans le dépasser. Le titre « au plus bas depuis juin 2013 » est donc exact, et « au plus bas de l'histoire » serait un abus.</p>
     <p><b>Source.</b> Insee, <a href="https://www.insee.fr/fr/statistiques/9098942">Informations rapides n° 260, 27 octobre 2026</a> ; série <a href="https://www.insee.fr/fr/statistiques/serie/001587668">001587668</a>, parue le 27 octobre 2026. Prochaine publication : 25 novembre 2026.</p>
   </div>
 
@@ -88,20 +91,22 @@ const D = [[1972,10,128],[1972,11,129],[1972,12,129],[1973,1,130],[1973,2,131],[
 const MOIS = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
 const T = d => d[0] + (d[1]-1)/12;               // temps en années décimales
 const lab = d => MOIS[d[1]-1] + " " + d[0];
+const cap = s => s[0].toUpperCase() + s.slice(1);
 const signe = v => (v>0?"+":v<0?"−":"") + Math.abs(v);
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const LU = "28 octobre 2026";                    // date de lecture des sources
 
-const REP = [
-  [1974,1,"Chocs pétroliers (1973-1974)"],
-  [2008,10,"Crise financière des subprimes (automne 2008)"],
-  [2012,6,"Crise de la dette en zone euro (2010-2013)"],
-  [2020,3,"Début de l'épidémie de Covid-19 (mars 2020)"],
-  [2022,6,"Poussée d'inflation (2022)"]
-];
+// repères : mois, nature, valeur publiée, citation Insee et fait concomitant, avec leurs adresses (reperes.json)
+const REP = [{"mois":[2013,6],"nature":"creux, minimum de la série avec octobre 2026","publie":78,"insee":{"titre":"communiqué n° 147","url":"https://www.insee.fr/fr/statistiques/1563281","paru":"27/06/2013","paru_fr":"27 juin 2013","citation":"atteignant ainsi un nouveau point bas"},"concomitant":{"texte":"inflation annuelle (IPC) de juin 2013 : +0,9 %","titre":"IPC, n° 161","url":"https://www.insee.fr/fr/statistiques/1563066","paru":"11/07/2013","paru_fr":"11 juillet 2013","citation":"Sur un an, il croît de 0,9 % en juin"}},{"mois":[2017,6],"nature":"pic local","publie":108,"insee":{"titre":"communiqué n° 170","url":"https://www.insee.fr/fr/statistiques/2883442","paru":"28/06/2017","paru_fr":"28 juin 2017","citation":"atteint 108, son plus haut niveau depuis juin 2007"},"concomitant":{"texte":"inflation annuelle (IPC) de juin 2017 : +0,7 %","titre":"IPC, n° 184","url":"https://www.insee.fr/fr/statistiques/2900793","paru":"13/07/2017","paru_fr":"13 juillet 2017","citation":"augmentent de 0,7 % sur un an"}},{"mois":[2018,12],"nature":"creux local","publie":87,"insee":{"titre":"communiqué n° 2","url":"https://www.insee.fr/fr/statistiques/3691595","paru":"09/01/2019","paru_fr":"9 janvier 2019","citation":"atteint 87, son plus bas niveau depuis novembre 2014"},"concomitant":{"texte":"inflation annuelle (IPC) de décembre 2018 : +1,6 %","titre":"IPC, n° 5","url":"https://www.insee.fr/fr/statistiques/3696164","paru":"15/01/2019","paru_fr":"15 janvier 2019","citation":"augmentent de 1,6 % sur un an"}},{"mois":[2019,11],"nature":"pic local","publie":106,"insee":{"titre":"communiqué n° 305","url":"https://www.insee.fr/fr/statistiques/4254274","paru":"27/11/2019","paru_fr":"27 novembre 2019","citation":"À 106, l’indicateur qui la synthétise gagne deux points"},"concomitant":{"texte":"inflation annuelle (IPC) de novembre 2019 : +1,0 %","titre":"IPC, n° 320","url":"https://www.insee.fr/fr/statistiques/4264540","paru":"12/12/2019","paru_fr":"12 décembre 2019","citation":"de 1,0 % sur un an"}},{"mois":[2020,4],"nature":"plus forte baisse depuis 1972, selon l’Insee","publie":95,"insee":{"titre":"communiqué n° 106","url":"https://www.insee.fr/fr/statistiques/4483357","paru":"28/04/2020","paru_fr":"28 avril 2020","citation":"soit sa plus forte baisse depuis la création de l’enquête en 1972"},"concomitant":{"texte":"inflation annuelle (IPC) d’avril 2020 : +0,3 %","titre":"IPC, n° 121","url":"https://www.insee.fr/fr/statistiques/4492639","paru":"15/05/2020","paru_fr":"15 mai 2020","citation":"augmentent de 0,3 % sur un an"}},{"mois":[2022,7],"nature":"creux local","publie":80,"insee":{"titre":"communiqué n° 196","url":"https://www.insee.fr/fr/statistiques/6478226","paru":"27/07/2022","paru_fr":"27 juillet 2022","citation":"pour le septième mois consécutif"},"concomitant":{"texte":"inflation annuelle (IPC) de juillet 2022 : +6,1 %","titre":"IPC, n° 211","url":"https://www.insee.fr/fr/statistiques/6483474","paru":"12/08/2022","paru_fr":"12 août 2022","citation":"de 6,1 % sur un an"}},{"mois":[2024,9],"nature":"pic local","publie":95,"insee":{"titre":"communiqué n° 243","url":"https://www.insee.fr/fr/statistiques/8258231","paru":"25/09/2024","paru_fr":"25 septembre 2024","citation":"pour le troisième mois consécutif"},"concomitant":{"texte":"inflation annuelle (IPC) de septembre 2024 : +1,1 %","titre":"IPC, n° 255","url":"https://www.insee.fr/fr/statistiques/8269846","paru":"15/10/2024","paru_fr":"15 octobre 2024","citation":"augmentent de 1,1 % sur un an"}},{"mois":[2026,10],"nature":"creux, minimum de la série avec juin 2013","publie":80,"insee":{"titre":"communiqué n° 260","url":"https://www.insee.fr/fr/statistiques/9098942","paru":"27/10/2026","paru_fr":"27 octobre 2026","citation":"atteint son niveau le plus bas depuis juin 2013"},"concomitant":{"texte":"inflation annuelle (IPC) de septembre 2026, dernière publiée : +3,1 %","titre":"IPC, n° 247","url":"https://www.insee.fr/fr/statistiques/9080209","paru":"15/10/2026","paru_fr":"15 octobre 2026","citation":"augmentent de 3,1 % sur un an"}}];
+// numéros sur la courbe : seulement si l'écart minimal à 390 px le permet (calculé par generer.py)
+const LABELS = false;
 const idx = (y,m) => D.findIndex(d => d[0]===y && d[1]===m);
 document.getElementById("rep").innerHTML = REP.map(r => {
-  const v = D[idx(r[0],r[1])][2];
-  return `<li>${r[2]} : indicateur à ${v} (${MOIS[r[1]-1]} ${r[0]})</li>`;
+  const v = D[idx(r.mois[0], r.mois[1])][2];
+  const c = r.concomitant, i = r.insee;
+  return `<li><b>${cap(lab(r.mois))}</b> (${r.nature}) : ${v} dans la série actuelle, ${r.publie} publié le ${i.paru_fr}.<br>
+    Insee : « ${i.citation} » (<a href="${i.url}">${i.titre}</a>, lu le ${LU}).<br>
+    Fait concomitant : ${c.texte} (<a href="${c.url}">${c.titre}</a>, publié le ${c.paru_fr}, lu le ${LU}).</li>`;
 }).join("");
 document.querySelector("#tab tbody").innerHTML = D.slice(-24).reverse().map(d =>
   `<tr><td>${lab(d)}</td><td class="n">${d[2]}</td><td class="n">${signe(d[2]-100)}</td></tr>`).join("");
@@ -138,19 +143,20 @@ function draw(){
         <path d="${line}" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round"/>
         <line x1="${m.l}" x2="${W-m.r}" y1="${Y(100)}" y2="${Y(100)}" stroke="var(--ink)" stroke-width="1.5"/>
         <text x="${W-m.r+6}" y="${Y(100)+4}" style="fill:var(--ink);font-weight:600">100</text>`;
+  // repères : tiret et point sur la courbe ; numéros seulement si LABELS
+  REP.forEach((r,k) => {
+    const p = pts[idx(r.mois[0], r.mois[1])];
+    s += `<line x1="${p[0]}" x2="${p[0]}" y1="${m.t+16}" y2="${p[1]}" stroke="var(--muted)" stroke-width="1" stroke-dasharray="2 3"/>
+          <circle cx="${p[0]}" cy="${p[1]}" r="2.5" fill="var(--card)" stroke="var(--ink)" stroke-width="1.5"/>`;
+    if (LABELS) s += `<circle cx="${p[0]}" cy="${m.t+10}" r="8" fill="var(--card)" stroke="var(--muted)"/>
+          <text x="${p[0]}" y="${m.t+14}" text-anchor="middle" style="fill:var(--ink);font-size:11px;font-weight:600">${k+1}</text>`;
+  });
   // creux de 2013 et dernier point
   const i13 = idx(2013,6), iL = D.length-1;
   s += `<circle cx="${pts[i13][0]}" cy="${pts[i13][1]}" r="4.5" fill="var(--card)" stroke="var(--ink)" stroke-width="2"/>
         <text x="${pts[i13][0]}" y="${pts[i13][1]+20}" text-anchor="middle" style="fill:var(--ink2)">juin 2013 : 80</text>
         <circle cx="${pts[iL][0]}" cy="${pts[iL][1]}" r="5" fill="var(--neg)" stroke="var(--card)" stroke-width="2"/>
         <text x="${pts[iL][0]+8}" y="${pts[iL][1]+4}" style="fill:var(--neg-ink);font-weight:700;font-size:15px">80</text>`;
-  // repères numérotés
-  REP.forEach((r,k) => {
-    const p = pts[idx(r[0],r[1])];
-    s += `<line x1="${p[0]}" x2="${p[0]}" y1="${m.t+16}" y2="${p[1]}" stroke="var(--muted)" stroke-width="1" stroke-dasharray="2 3"/>
-          <circle cx="${p[0]}" cy="${m.t+10}" r="8" fill="var(--card)" stroke="var(--muted)"/>
-          <text x="${p[0]}" y="${m.t+14}" text-anchor="middle" style="fill:var(--ink);font-size:11px;font-weight:600">${k+1}</text>`;
-  });
   s += `<line id="cx" y1="${m.t}" y2="${H-m.b}" stroke="var(--ink)" stroke-width="1" style="display:none"/>
         <circle id="cd" r="4.5" fill="var(--card)" stroke="var(--ink)" stroke-width="2" style="display:none"/>
         <rect id="hit" x="${m.l}" y="${m.t}" width="${W-m.l-m.r}" height="${H-m.t-m.b}" fill="transparent"/></svg>`;

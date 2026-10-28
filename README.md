@@ -6,3 +6,5 @@ Données : Insee, série 001587668 (indicateur synthétique de confiance des mé
 https://www.insee.fr/fr/statistiques/serie/001587668
 
 Régénération : `uv run --script generer.py serie.md index.html modele.html`, où `serie.md` est le texte de la page de la série.
+
+Repères : `reperes.json`, à côté du modèle. Chaque date doit exister dans la série (assertion dans `generer.py`). Chaque citation figure dans son communiqué Insee, avec son adresse et sa date de parution.
